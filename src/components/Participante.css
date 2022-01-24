@@ -15,6 +15,13 @@ li, a, button{
     text-decoration: none;
     list-style: none;
 }
+
+.participante-container {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 20px 30px 20px 50px;
+}
+
 .participante-nome {
     margin-left: 10%;
     margin-right: 10%;
@@ -24,6 +31,7 @@ li, a, button{
     cursor: pointer;
 }
 .logo{
+    size: 30px;
     padding: 50px 0 20px 2%;
     float: left;
     list-style: none;
@@ -35,4 +43,14 @@ li, a, button{
 .link{
     padding: 20px 0 20px 150px;
     list-style: none;
+}
+
+.container{
+    width: 100px;
+    height: 100px;
+}
+
+.container img {
+    width: 100%;
+    height: auto;
 }

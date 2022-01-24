@@ -7,7 +7,7 @@ const Participantes = ({ participantes }) => {
         <div className="participantes-lista">
             {participantes.map((participante) => (
                 <Participante 
-                    key={participante.id}
+                    key={participante.organizationName}
                     participante={participante}
                 />
             ))}
